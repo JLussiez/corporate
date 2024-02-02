@@ -1,0 +1,22 @@
+$colors: (
+  "black": #000000,
+  "white": #ffffff,
+  "red": #a11719,
+  "orange": rgb(240, 165, 99),
+  "gray": rgb(101, 93, 90),
+  "light-gray": #f5f5f5,
+  "violet": #933953,
+  "form-gray": #8b837f,
+);
+
+$polices-kanit: (
+  font-face: (
+    family: "Kanit",
+    font-files: (
+      "../assets/fonts/Kanit",
+    ),
+    format: (
+      "opentype",
+    ),
+  ),
+);

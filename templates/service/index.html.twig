@@ -1,0 +1,273 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello !{% endblock %}
+
+{% block body %}
+    <h1 class="d-flex justify-content-center">Pourquoi nous ?</h1>
+    <br>
+        <h3 class="d-flex justify-content-center">Chez Uber Bagarre nous proposons différentes offres et différents services afin de satisfaire le client !</h3>
+    <br>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+      <div class="d-flex justify-content-center">
+        <img class="d-flex justify-content-center" src="{{ asset('/img/person.svg') }}" />
+        </div>
+    <h5 class="card-title d-flex justify-content-center">Satisfaction du client</h5>
+    <br>
+
+    <p class="card-text">Chez nous, la satisfaction du client est le plus important.</p>
+    <p class="card-text">Si le client n’est pas satisfait
+ou si le bagarreur ne donne pas
+de résultats concluants, nous nous engageons à effectuer un remboursement de 60%</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+      <div class="d-flex justify-content-center">
+        <img class="d-flex justify-content-center" src="{{ asset('/img/validate.svg') }}" />
+        </div>
+    <h5 class="card-title d-flex justify-content-center">Offres adaptées au client</h5>
+    <br>
+
+    <p class="card-text">Nous proposons différents types d’offres
+afin de mieux cibler votre besoin.</p>
+    <p class="card-text">Nos offres changent régulièrement
+afin d’assurer un service optimal
+et une organisation permettant
+de vous satisfaire.</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+      <div class="d-flex justify-content-center">
+        <img class="d-flex justify-content-center" src="{{ asset('/img/muscle.svg') }}" />
+        </div>
+    <h5 class="card-title d-flex justify-content-center">Profesionnalisme garanti</h5>
+    <br>
+
+    <p class="card-text">Nos bagarreurs sont certifiés et sont
+régulièrement soumis à des tests
+physiques et à des mises en situation
+réelles.</p>
+    <p class="card-text">Aucun écart de leur part n'est toléré. Ils sont l’essence même d’Uber Bagarre.</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+    <br>
+    <h1 class="d-flex justify-content-center">Choississez l'offre qui vous correspond le mieux</h1>
+    <h3 class="d-flex justify-content-center">*Toutes nos offres sont TTC*</h3>
+    <br>
+        <h3 class="d-flex justify-content-center offers">Offres bagarreurs</h3>
+            <br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Standard</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1</li>
+    <li class="list-group-item">adversaires : 3 max</li>
+    <li class="list-group-item">protection : ~1h</li>
+    <li class="list-group-item">déplacement : 30km max</li>
+  </ul>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">30 €</h5>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Comfort</h5>
+    <br>
+       <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreurs : 2</li>
+    <li class="list-group-item">adversaires : 5 max</li>
+    <li class="list-group-item">protection : ~2-3h</li>
+    <li class="list-group-item">déplacement : 45km max</li>
+  </ul>
+      <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">70 €</h5>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Elite</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 3+</li>
+    <li class="list-group-item">adversaires : 7 max</li>
+    <li class="list-group-item">protection : ~6h</li>
+    <li class="list-group-item">déplacement : 60km max</li>
+  </ul>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">150 €</h5>
+  </div>
+    </div>
+  </div>
+</div>
+<br>
+        <h3 class="d-flex justify-content-center offers">Offres Longue durée</h3>
+            <br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">12H</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1</li>
+    <li class="list-group-item">protection : ~12h</li>
+    <li class="list-group-item">déplacement : 50km max</li>
+  </ul>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">60 €</h5>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">24H</h5>
+    <br>
+       <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1</li>
+    <li class="list-group-item">protection : ~24h</li>
+    <li class="list-group-item">déplacement : 70km max</li>
+  </ul>
+      <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">100 €</h5>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">48H</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1-2</li>
+    <li class="list-group-item">protection : ~48h</li>
+    <li class="list-group-item">déplacement : 100km max</li>
+  </ul>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">185 €</h5>
+  </div>
+    </div>
+  </div>
+</div>
+<br>
+        <h3 class="d-flex justify-content-center offers">Offres Longue distance</h3>
+            <br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Courte distance</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1-2</li>
+    <li class="list-group-item">adversaires : 5 max</li>
+    <li class="list-group-item">protection : ~3h</li>
+    <li class="list-group-item">déplacement : 100km max</li>
+  </ul>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">75 €</h5>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Moyenne distance</h5>
+    <br>
+       <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1-2</li>
+    <li class="list-group-item">adversaires : 5 max</li>
+    <li class="list-group-item">protection : ~6h</li>
+    <li class="list-group-item">déplacement : 200km max</li>
+  </ul>
+      <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">100 €</h5>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Longue distance</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">bagarreur : 1-2</li>
+    <li class="list-group-item">adversaires : 5 max</li>
+    <li class="list-group-item">protection : ~12h</li>
+    <li class="list-group-item">déplacement : 300km max</li>
+  </ul>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price">200 €</h5>
+  </div>
+    </div>
+  </div>
+</div>
+    <br>
+        <h3 class="d-flex justify-content-center offers__urg">Offre d'urgence</h3>
+        <br>
+        <h4 class="d-flex justify-content-center d-flex justify-content-center">L’offre d’urgence est une offre spéciale qui permet de vous assurer une protection même en cas d’inprévus,
+un tarif spécifique sera alors appliqué.<h4>
+<br>
+<div class="container">
+  <div class="d-flex justify-content-center">
+<div class="cards" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title offers__title d-flex justify-content-center">Urgence et imprévus</h5>
+    <br>
+    <p class="card-text offers__text">Cette offre comprend :</p>
+  </div>
+  <br>
+    <h5 class="list-group-item">Tarification pour une offre standard + supplément</h5>
+    <h5 class="list-group-item">
+D’autres suppléments peuvent s’ajouter en fonction
+de la situation</h5>
+    <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center offers__price-urg">A partir de 75 €</h5>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

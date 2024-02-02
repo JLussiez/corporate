@@ -1,0 +1,104 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello !{% endblock %}
+
+{% block body %}
+    <h1 class="d-flex justify-content-center">Notre collectif</h1>
+    <br>
+        <h5 class="d-flex justify-content-center">Uber Bagarre est un collectif crée en 2020 à Amiens.</h5>
+        <h5 class="d-flex justify-content-center">Uber Bagarre est un service de sécurité qui vous permet de faire appel à un professionnel de la sécurité pour vous protéger.</h5>
+        <h5 class="d-flex justify-content-center">Notre équipe est composée de professionnels expérimentés et qualifiés, qui sont formés à gérer toutes les situations.</h5>
+        <h5 class="d-flex justify-content-center">Uber Bagarre est un service sûr et fiable. Tous nos bagarreurs sont soumis à des vérifications d'identité et de casier judiciaire.</h5>
+                <h5 class="d-flex justify-content-center">Alors, n'attendez pas plus longtemps pour vous protéger !</h5>
+        <br>
+        <h7 class="d-flex justify-content-center">Carte de l'emplacement de notre collectif</h7>
+        <div class="d-flex justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.46858995917!2d2.298895412032937!3d49.89000537137171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1706829162199!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+    <h1 class="d-flex justify-content-center">Nos bagarreurs</h1>
+    <br>
+    <p class="d-flex justify-content-center">Liste de nos bagarreurs</p>
+    <br>
+    <div class="container">
+  <div class="row">
+    <div class="col-lg">
+<div class="cards" style="width: 20rem;">
+  <img src="{{ asset('/img/francis.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center ">Francis</h5>
+    <p class="card-text d-flex justify-content-center">37 ans</p>
+    <p class="card-text d-flex justify-content-center">1.93 m</p>
+    <p class="card-text d-flex justify-content-center">117 kg</p>
+    <p class="card-text d-flex justify-content-center">Camerounais</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg">
+<div class="cards" style="width: 20rem;">
+  <img src="{{ asset('/img/benoit.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center ">Benoit</h5>
+    <p class="card-text d-flex justify-content-center">28 ans</p>
+    <p class="card-text d-flex justify-content-center">1.8 m</p>
+    <p class="card-text d-flex justify-content-center">70 kg</p>
+    <p class="card-text d-flex justify-content-center">Français</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg">
+<div class="cards" style="width: 20rem;">
+  <img src="{{ asset('/img/cyril.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center ">Cyril</h5>
+    <p class="card-text d-flex justify-content-center">33 ans</p>
+    <p class="card-text d-flex justify-content-center">1.93 m</p>
+    <p class="card-text d-flex justify-content-center">112 kg</p>
+    <p class="card-text d-flex justify-content-center">Français</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<br>
+    <div class="container d-flex justify-content-around">
+  <div class="row">
+    <div class="col-lg">
+<div class="cards" style="width: 20rem;">
+  <img src="{{ asset('/img/cedric.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center">Cédric</h5>
+    <p class="card-text d-flex justify-content-center">31 ans</p>
+    <p class="card-text d-flex justify-content-center">1.77 m</p>
+    <p class="card-text d-flex justify-content-center">77 kg</p>
+    <p class="card-text d-flex justify-content-center">Camerounais</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg">
+<div class="cards" style="width: 20rem;">
+  <img src="{{ asset('/img/baki.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center">Baysangur</h5>
+    <p class="card-text d-flex justify-content-center">22 ans</p>
+    <p class="card-text d-flex justify-content-center">1.78 m</p>
+    <p class="card-text d-flex justify-content-center">77 kg</p>
+    <p class="card-text d-flex justify-content-center">Tchétchéne</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg">
+<div class="cards" style="width: 20rem;">
+  <img src="{{ asset('/img/kaaris.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title d-flex justify-content-center">Okou</h5>
+    <p class="card-text d-flex justify-content-center">44 ans</p>
+    <p class="card-text d-flex justify-content-center">1.85 m</p>
+    <p class="card-text d-flex justify-content-center">85 kg</p>
+    <p class="card-text d-flex justify-content-center">Ivoirien</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+{% endblock %}

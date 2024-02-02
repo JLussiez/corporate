@@ -1,0 +1,3 @@
+@mixin setfontfamilykanit($string) {
+  font-family: #{$string};
+}
