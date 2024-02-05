@@ -11,8 +11,6 @@ class DetailsController extends AbstractController
     #[Route('/details', name: 'app_details')]
     public function index(): Response
     {
-        return $this->render('details/index.html.twig', [
-            'controller_name' => 'DetailsController',
-        ]);
+        return $this->render('details/index.html.twig');
     }
 }
