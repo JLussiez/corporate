@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-Black-15215fc1cc9fd9e88e1fc1f40a7966e9.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-BlackItalic-9dde45e54510bf0caf59143b7bfd0e72.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-Bold-93bc2c227d42ae9f51916f35d1949ef2.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-BoldItalic-f78cfa34a9ff79e15eeba63b8890cae7.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-ExtraBold-8cf0b3d8a47bbc854931d4c75ee52307.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-ExtraBoldItalic-6d1b01c851c7d0360dcc5cee88b715ba.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-ExtraLight-d731f4205127aa986e603ad607685a06.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-ExtraLightItalic-6b9ee470e660144d8a4d235e8c5b55c4.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-Italic-33aa9e12507cdddc55b47218dc0172ec.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-Light-b8a78cee38197d6ae4b43a069ff7d785.ttf");
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit/Kanit-LightItalic-caf9c36ef35217e22378f1a8b893f06a.ttf");
+}
+* {
+  color: #000000;
+  text-decoration: none;
+  font-family: Kanit;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.red {
+  font-weight: bold;
+  color: #a11719;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around; /* Pour espacer les éléments à gauche et à droite */
+  align-items: center; /* Pour aligner les éléments verticalement */
+  padding-top: 1%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.nav a {
+  color: #000000;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #f5f5f5;
+  opacity: 50%;
+  color: black;
+  border-radius: 10px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  background-color: rgb(101, 93, 90);
+  columns: 3 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__text {
+  color: #f5f5f5;
+  font-size: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.footer__space {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.index-title {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(245, 245, 245, 0.5);
+  width: 1200px;
+  height: 400px;
+  border-radius: 10px;
+  padding-top: 8%;
+}
+.index-title__text {
+  font-size: 30px;
+}
+
+.contact-title {
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contact-title__text {
+  font-size: 30px;
+}
+.contact-title__text2 {
+  padding-top: 2%;
+}
+.contact-title__text2__p {
+  font-size: 22px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  border: 1 solid;
+  border-color: rgb(240, 165, 99);
+}
+.form__label {
+  list-style-type: none;
+}
+
+.form-title {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.cards {
+  border: 5px solid;
+  border-image: linear-gradient(to right, #a11719, #f82828);
+  border-image-slice: 1;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.offers {
+  font-weight: bold;
+  font-size: 30px;
+  padding-right: 5%;
+}
+.offers__title {
+  color: #a11719;
+}
+.offers__text {
+  font-weight: bold;
+}
+.offers__price {
+  font-weight: bold;
+  font-size: 50px;
+  color: #a11719;
+}
+.offers__urg {
+  font-weight: bold;
+  font-size: 30px;
+  color: #a11719;
+}
+.offers__price-urg {
+  font-weight: bold;
+  font-size: 30px;
+  color: #a11719;
+}
+
+.services-cards {
+  border: none;
+  border-image: none;
+  border-image-slice: none;
+  border-radius: none;
+  border: 2px solid;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer-img {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.form-input {
+  border: 3px solid;
+  border-image: linear-gradient(to right, #a11719, #f82828);
+  border-image-slice: 1;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.form-button {
+  border-radius: 5px;
+  background: linear-gradient(to right, #a11719, #f82828);
+  color: #f5f5f5;
+}
+
+.index {
+  background-image: url("../img/city-051747abd6cedfbd2b0d95e41f8c43a9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.index-title p {
+  color: #000000;
+}
+
+.index-title h3 {
+  color: #000000;
+}
+
+@media screen and (min-width: 360px) and (max-width: 966px) {
+  .col-sm {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=app.output.css.map */
